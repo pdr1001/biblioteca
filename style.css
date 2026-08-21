@@ -222,7 +222,16 @@ button:hover {
     text-decoration: underline;
 }
 
+footer {
+    justify-content: center;
+}
 
+header, footer {
+    background-color: var(--prim);
+    color: var(--sec);
+    padding: 1rem;
+    display: flex;
+}
 
 
 
@@ -238,6 +247,10 @@ button:hover {
 
     nav {
         display: flex;
+        flex-direction: column;
+    }
+
+     .main-detalhe {
         flex-direction: column;
     }
 }
@@ -268,5 +281,6 @@ button:hover {
         font-size: 1.3rem;
     }
 }
+
 
 
