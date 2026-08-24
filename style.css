@@ -233,7 +233,27 @@ header, footer {
     display: flex;
 }
 
+.senha-container input {
+    position: relative;
+    width: 100%;
+}
 
+.senha-container button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    padding: 5px;
+    border: none;
+    background: transparent;
+}
+
+.senha-container button img {
+    width: 22px;
+}
 
 
 @media only screen and (max-width: 600px) {

@@ -44,3 +44,5 @@ cards.forEach(element => {
         element.style.backgroundColor = "black"
     })
 });
+
+
