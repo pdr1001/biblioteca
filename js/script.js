@@ -46,3 +46,21 @@ cards.forEach(element => {
 });
 
 
+let olho = document.getElementById('btn-olho')
+let senha = document.getElementById('senha')
+let visivel = false
+
+
+olho.addEventListener('click',  ()=>{
+    if(visivel == false){
+        olho.src = "imgs/olhoaberto.png"
+        senha.type = "text"
+        visivel = true
+    } else {
+        olho.src = "imgs/olhofechado.png"
+        senha.type = "password"
+        visivel = false
+    }
+
+})
+
